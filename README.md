@@ -1,40 +1,43 @@
-# Air-quality
+# Dự đoán chất lượng không khí (dữ liệu từ Kaggle)
 
-##  Introduction
-This project focuses on predicting air quality using Orange Data Mining.  
-The dataset is processed and used to build a machine learning model for prediction.
+##  Giới thiệu
+Trong bối cảnh ô nhiễm môi trường ngày càng gia tăng, việc theo dõi và dự đoán chất lượng không khí đóng vai trò quan trọng trong việc bảo vệ sức khỏe con người và môi trường sống. 
+Dự án này được thực hiện nhằm xây dựng một mô hình dự đoán chất lượng không khí dựa trên các chỉ số ô nhiễm thu thập từ bộ dữ liệu trên Kaggle.
+Thông qua việc sử dụng công cụ Orange Data Mining, nhóm tiến hành xử lý dữ liệu, trực quan hóa và áp dụng các phương pháp học máy để phân tích và dự đoán mức độ ô nhiễm không khí. 
+Quy trình thực hiện bao gồm tiền xử lý dữ liệu, lựa chọn đặc trưng, huấn luyện mô hình và đánh giá kết quả.
 
----
-
-##  Dataset
-- File: updated_pollution_dataset.csv
-- Description: Contains air quality indicators used for training the model.
-
----
-
-## Model
-- Tool: Orange Data Mining
-- Workflow file: updated_pollution_dataset.ows
-- Methods: Data preprocessing, training, and evaluation
+Kết quả của dự án không chỉ giúp hiểu rõ hơn về mối quan hệ giữa các yếu tố môi trường mà còn hỗ trợ đưa ra các dự đoán có ý nghĩa thực tiễn. 
+Qua đó, góp phần nâng cao nhận thức về bảo vệ môi trường và mở ra khả năng ứng dụng trong các hệ thống giám sát chất lượng không khí trong tương lai.
 
 ---
 
-##  Project Structure
-- updated_pollution_dataset.csv : dataset  
-- updated_pollution_dataset.ows : Orange workflow  
-- Dự đoán chất lượng không khí.docx : report  
-- images/ : charts and results  
+##  Dữ liệu 
+- updated_pollution_dataset.csv
 
 ---
 
-##  How to Run
-1. Open Orange Data Mining  
-2. Load file updated_pollution_dataset.ows  
-3. Run workflow to see results  
+##  Mô hình
+- Orange Data Mining  
+- File: updated_pollution_dataset.ows
 
 ---
 
-##  Authors
+##  Cấu trúc đề tài
+- Updated_pollution_dataset.csv  
+- Updated_pollution_dataset.ows  
+- Dự đoán chất lượng không khí.docx  
+- Images/  
+
+---
+
+##  Cách chạy workflow
+1. Mở Orange Data Mining  
+2. Mở file updated_pollution_dataset.ows  
+3. Chạy workflow để xem kết quả  
+
+---
+
+## Nhóm thực hiện
 - Đỗ Thị Bình An  
 - Phạm Thị Vân Hoa  
 - Đỗ Trần Ngọc Huyền
