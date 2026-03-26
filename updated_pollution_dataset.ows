@@ -4,15 +4,15 @@
 		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title=" Data 80% (Training)" position="(-75.0, 152.0)" />
 		<node id="1" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(58.0, -4.0)" />
 		<node id="2" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="Data 20% (Test)" position="(-84.0, 394.0)" />
-		<node id="3" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns (1)" position="(197.0, 287.0)" />
-		<node id="4" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score (1)" position="(532.0, 130.0)" />
-		<node id="5" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(339.0, -92.0)" />
+		<node id="3" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns (1)" position="(135.0, 283.0)" />
+		<node id="4" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score (1)" position="(455.0, 148.0)" />
+		<node id="5" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(311.0, -116.0)" />
 		<node id="6" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest" position="(149.0, 142.0)" />
-		<node id="7" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(569.0, 385.0)" />
-		<node id="8" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(798.0, 89.0)" />
-		<node id="9" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(861.0, 328.0)" />
-		<node id="10" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest (1)" position="(242.0, 428.0)" />
-		<node id="11" name="Tree Viewer" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" project_name="Orange3" version="" title="Tree Viewer" position="(626.0, -71.0)" />
+		<node id="7" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(495.0, 402.0)" />
+		<node id="8" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(879.0, 144.0)" />
+		<node id="9" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(883.0, 358.0)" />
+		<node id="10" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest (1)" position="(282.0, 468.0)" />
+		<node id="11" name="Tree Viewer" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" project_name="Orange3" version="" title="Tree Viewer" position="(572.0, -111.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
@@ -190,7 +190,7 @@ bHNfaGludJSMAJSMEnRhcmdldF9jbGFzc19pbmRleJRLAGgKSwF1jAdjbGFzc2VzlIwST3Jhbmdl
 LmRhdGEuZG9tYWlulIwGRG9tYWlulJOUKYGUfZQojAphdHRyaWJ1dGVzlCiMFE9yYW5nZS5kYXRh
 LnZhcmlhYmxllIwNbWFrZV92YXJpYWJsZZSTlGgejBJDb250aW51b3VzVmFyaWFibGWUk5ROjAtU
 ZW1wZXJhdHVyZZSHlFKUfZQojAVfbmFtZZRoI4wOX2NvbXB1dGVfdmFsdWWUTowLdW5rbm93bl9z
-dHKUj5QoaBVHf/gAAAAAAABOjAJOQZSMAS6UjAF+lIwDbmFulIwBP5SQjA9zb3VyY2VfdmFyaWFi
+dHKUj5QoaBVHf/gAAAAAAABOjAF+lIwBP5SMAk5BlIwDbmFulIwBLpSQjA9zb3VyY2VfdmFyaWFi
 bGWUTowGc3BhcnNllIloHX2UjA9fbWF4X3JvdW5kX2RpZmaURz561/KavK9IjBNfbnVtYmVyX29m
 X2RlY2ltYWxzlEsBjA9hZGp1c3RfZGVjaW1hbHOUSwGMC19mb3JtYXRfc3RylIwEJS4xZpR1Ymgg
 aCJOjAhIdW1pZGl0eZSHlFKUfZQoaCdoOGgoTmgpaCpoME5oMYloHX2UaDNHPnrX8pq8r0hoNEsB
@@ -216,7 +216,7 @@ DVBhbGV0dGUuRmxhZ3OUk5RLBIWUUpR1YowHX2NvbG9yc5RohmiJSwCFlGiLh5RSlChLAUsESwOG
 lGiTiUMMRr767UYvqvIr9a4ylHSUYnVihZSMBl9tZXRhc5QpjAljbGFzc192YXKUaHOMCWFub255
 bW91c5SJdWJ1YmgPKYGUfZQoaBJ9lCiMEG5vZGVfbGFiZWxzX2hpbnSUaBWMEnRhcmdldF9jbGFz
 c19pbmRleJRLAGgKSwF1aBdoGimBlH2UKIwKYXR0cmlidXRlc5QoaCBoIk6MC1RlbXBlcmF0dXJl
-lIeUUpR9lChoJ2iyaChOaCmPlChoFU6MAk5BlGgsaC2MA25hbpRHf/gAAAAAAABoL5BoME5oMYlo
+lIeUUpR9lChoJ2iyaChOaCmPlChoFU5oK2gsjAJOQZSMA25hbpRHf/gAAAAAAABoL5BoME5oMYlo
 HX2UaDNHPnrX8pq8r0hoNEsBaDVLAWg2jAQlLjFmlHViaCBoIk6MCEh1bWlkaXR5lIeUUpR9lCho
 J2i7aChOaClotmgwTmgxiWgdfZRoM0c+etfymryvSGg0SwFoNUsBaDaMBCUuMWaUdWJoIGgiTowF
 UE0yLjWUh5RSlH2UKGgnaMFoKE5oKWi2aDBOaDGJaB19lGgzRz561/KavK9IaDRLAWg1SwFoNowE
@@ -236,7 +236,7 @@ iUMMRr767UYvqvIr9a4ylHSUYmiYS4BLgEuAh5RommiedWJon2iGaIlLAIWUaIuHlFKUKEsBSwRL
 A4aUagIBAACJQwxGvvrtRi+q8iv1rjKUdJRidWKFlIwGX21ldGFzlCmMCWNsYXNzX3ZhcpRo9IwJ
 YW5vbnltb3VzlIl1YnViaA8pgZR9lChoEn2UKIwQbm9kZV9sYWJlbHNfaGludJRoFYwSdGFyZ2V0
 X2NsYXNzX2luZGV4lEsAaApLAXVoF2gaKYGUfZQojAphdHRyaWJ1dGVzlChoIGgiTowLVGVtcGVy
-YXR1cmWUh5RSlH2UKGgnahkBAABoKE5oKY+UKGgVTowCTkGUaCxoLUd/+AAAAAAAAIwDbmFulGgv
+YXR1cmWUh5RSlH2UKGgnahkBAABoKE5oKY+UKGgVTmgraCxHf/gAAAAAAACMAk5BlIwDbmFulGgv
 kGgwTmgxiWgdfZRoM0c+etfymryvSGg0SwFoNUsBaDaMBCUuMWaUdWJoIGgiTowISHVtaWRpdHmU
 h5RSlH2UKGgnaiIBAABoKE5oKWodAQAAaDBOaDGJaB19lGgzRz561/KavK9IaDRLAWg1SwFoNowE
 JS4xZpR1YmggaCJOjAVQTTIuNZSHlFKUfZQoaCdqKAEAAGgoTmgpah0BAABoME5oMYloHX2UaDNH
@@ -257,8 +257,8 @@ aJROTk5K/////0r/////SwB0lGKJQwxGvvrtRi+q8iv1rjKUdJRiaJhLgEuAS4CHlGiaaJ51Ymif
 aIZoiUsAhZRoi4eUUpQoSwFLBEsDhpRqaQEAAIlDDEa++u1GL6ryK/WuMpR0lGJ1YoWUjAZfbWV0
 YXOUKYwJY2xhc3NfdmFylGpbAQAAjAlhbm9ueW1vdXOUiXVidWJoDymBlH2UKGgSfZQojBBub2Rl
 X2xhYmVsc19oaW50lGgVjBJ0YXJnZXRfY2xhc3NfaW5kZXiUSwBoCksBdWgXaBopgZR9lCiMCmF0
-dHJpYnV0ZXOUKGggaCJOjAtUZW1wZXJhdHVyZZSHlFKUfZQoaCdqgAEAAGgoTmgpj5QoaBVHf/gA
-AAAAAABOjAJOQZRoLGgtjANuYW6UaC+QaDBOaDGJaB19lGgzRz561/KavK9IaDRLAWg1SwFoNowE
+dHJpYnV0ZXOUKGggaCJOjAtUZW1wZXJhdHVyZZSHlFKUfZQoaCdqgAEAAGgoTmgpj5QoaBVOR3/4
+AAAAAAAAaCtoLIwCTkGUjANuYW6UaC+QaDBOaDGJaB19lGgzRz561/KavK9IaDRLAWg1SwFoNowE
 JS4xZpR1YmggaCJOjAhIdW1pZGl0eZSHlFKUfZQoaCdqiQEAAGgoTmgpaoQBAABoME5oMYloHX2U
 aDNHPnrX8pq8r0hoNEsBaDVLAWg2jAQlLjFmlHViaCBoIk6MBVBNMi41lIeUUpR9lChoJ2qPAQAA
 aChOaClqhAEAAGgwTmgxiWgdfZRoM0c+etfymryvSGg0SwFoNUsBaDaMBCUuMWaUdWJoIGgiTowE
@@ -279,7 +279,7 @@ MpR0lGJomEuAS4BLgIeUaJponnViaJ9ohmiJSwCFlGiLh5RSlChLAUsESwOGlGrQAQAAiUMMRr76
 7UYvqvIr9a4ylHSUYnVihZSMBl9tZXRhc5QpjAljbGFzc192YXKUasIBAACMCWFub255bW91c5SJ
 dWJ1YmgPKYGUfZQoaBJ9lCiMEG5vZGVfbGFiZWxzX2hpbnSUaBWMEnRhcmdldF9jbGFzc19pbmRl
 eJRLAGgKSwF1aBdoGimBlH2UKIwKYXR0cmlidXRlc5QoaCBoIk6MC1RlbXBlcmF0dXJllIeUUpR9
-lChoJ2rnAQAAaChOaCmPlChoFU6MAk5BlGgsaC2MA25hbpRHf/gAAAAAAABoL5BoME5oMYloHX2U
+lChoJ2rnAQAAaChOaCmPlChoFU5oK2gsjAJOQZSMA25hbpRHf/gAAAAAAABoL5BoME5oMYloHX2U
 aDNHPnrX8pq8r0hoNEsBaDVLAWg2jAQlLjFmlHViaCBoIk6MCEh1bWlkaXR5lIeUUpR9lChoJ2rw
 AQAAaChOaClq6wEAAGgwTmgxiWgdfZRoM0c+etfymryvSGg0SwFoNUsBaDaMBCUuMWaUdWJoIGgi
 TowFUE0yLjWUh5RSlH2UKGgnavYBAABoKE5oKWrrAQAAaDBOaDGJaB19lGgzRz561/KavK9IaDRL
